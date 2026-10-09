@@ -10,48 +10,64 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                    "no inicio ficou com medo do que essa tecnologia pode fazer "
+                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando.",
+                ]
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                    "Quis saber como usar IA no seu dia a dia.",
+                "Foi atrás de vídeos, artigos e mais informaçõe sobre como utilizar essa tecnologia.",
+                    ]
+                
             }           
-            
+         
         ]
-    },
+    }
     {
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                afirmacao:[ 
+                    "faria o trabalho"
+                ]
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
-            }
+                afirmacao:[ 
+                      "Quis saber como usar IA no seu dia a dia.",
+                "Foi atrás de vídeos, artigos e mais informaçõe sobre como utilizar essa tecnologia."
+                ]
         ]
     },
-    {
+    ]
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
         alternativas: [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                afirmacao: [ 
+                    " ela dara mais oportunidade de estudo"
+                ]
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "ela pode melhorar"
+                ]
             }
             
         ]
-    },
+    
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
         alternativas: [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "ela pode melhorar"
             },
             {
                 texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
