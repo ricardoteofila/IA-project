@@ -1,5 +1,8 @@
-function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = ""; 
+const nomes = ["Fernanda", "Giuliana", "Maria Eduarda", "Marcelo", "Amanda", "Gustavo", "Gabriel"];
+
+export function aleatorio (lista){
+    const posicao = Math.floor(Math.random()* lista.length);
+    return lista[posicao];
 }
+
+export const nome = aleatorio(nomes)
